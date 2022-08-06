@@ -1,0 +1,27 @@
+.bg-org{
+    background: linear-gradient(107.58deg, #FF6417 5.25%, rgba(255, 100, 23, 0.68) 94.36%);
+    /* width: 100vw !important; */
+}
+.rocket{
+    top:0;
+    right: 10%;
+}
+.btn-shadow{
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.61);
+}
+
+@media (max-width: 768px) {
+    .hide-display{
+        display: none !important;
+    }
+    .rocket{
+    top:0;
+    right: 4%;
+}
+}
+@media (min-width: 1280px) {
+    .rocket{
+    top:0;
+    right: 13%;
+}
+}
